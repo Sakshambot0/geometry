@@ -90,9 +90,9 @@ stage.register(comment)
 
 var regex = new RegExp('.*')
 
-const admin_id = 5323259352;
+const admin_id = 5169514861;
 
-const admin_id2 = ;
+const admin_id2 = 5323259352 ;
 
 var mongo_url = 'mongodb+srv://Prasanth:Prasanth@cluster0.vxqhb.mongodb.net/?retryWrites=true&w=majority'; // Your Mongo URL Here
 
