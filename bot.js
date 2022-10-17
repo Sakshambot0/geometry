@@ -340,7 +340,7 @@ bot.on("contact", async(ctx)=> {
 
                 ctx.replyWithMarkdown(
 
-                    '*🏡 Welcome To Main Menu For More @SkteamCamps*', { reply_markup: { keyboard: [['💰 Balance'], ['👫 Invite', '🎁 Bonus', '🗂 Wallet'], ['💵 Withdraw', '📊 Statistics']], resize_keyboard: true } }
+                    '*🏡 Welcome To Main Menu👉 Join @Skteamcamp For More Auto Payment Bots👆*', { reply_markup: { keyboard: [['💰 Balance'], ['👫 Invite', '🎁 Bonus', '🗂 Wallet'], ['💵 Withdraw', '📊 Statistics']], resize_keyboard: true } }
 
                 )
 
