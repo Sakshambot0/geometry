@@ -1428,13 +1428,13 @@ onWithdraw.on('text', async (ctx) => {
 
                     return 0;
 
-                } else if (ctx.message.text > 10000){
+                } else if (ctx.message.text > 2){
 
                   ctx.replyWithMarkdown(
 
 
 
-                        '*⚠️ Maximum Withdrawal Is 10000 ' + currency + '*', { reply_markup: { keyboard: [['💰 Balance'], ['👫 Invite', '🎁 Bonus', '🗂 Wallet'], ['💵 Withdraw', '📊 Statistics']], resize_keyboard: true } }
+                        '*⚠️ Maximum Withdrawal Is 2 ' + currency + '*', { reply_markup: { keyboard: [['💰 Balance'], ['👫 Invite', '🎁 Bonus', '🗂 Wallet'], ['💵 Withdraw', '📊 Statistics']], resize_keyboard: true } }
 
 
 
