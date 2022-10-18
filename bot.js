@@ -12,9 +12,9 @@ const stage = new Stage()
 
 const rateLimit = require('telegraf-ratelimit');
 
-var bot_token = '5727561462:AAGrfUIv5tuaEy7rbpp0Fie_ExpYn1azn-c'; //YOUR BOT TOKEN HERE
+var bot_token = ''; //YOUR BOT TOKEN HERE
 
-var bot_name = 'SkTeamCampsBot'; // Bot Name
+var bot_name = ''; // Bot Name
 
 const bot = new Telegraf(bot_token);
 
@@ -90,11 +90,11 @@ stage.register(comment)
 
 var regex = new RegExp('.*')
 
-const admin_id = 5169514861;
+const admin_id = ;
 
-const admin_id2 = 5323259352 ;
+const admin_id2 = ;
 
-var mongo_url = 'mongodb+srv://Prasanth:Prasanth@cluster0.vxqhb.mongodb.net/?retryWrites=true&w=majority'; // Your Mongo URL Here
+var mongo_url = ''; // Your Mongo URL Here
 
 const buttonsLimit = {
 
@@ -340,7 +340,7 @@ bot.on("contact", async(ctx)=> {
 
                 ctx.replyWithMarkdown(
 
-                    '*🏡 Welcome To Main Menu👉 Join @Skteamcamp For More Auto Payment Bots👆*', { reply_markup: { keyboard: [['💰 Balance'], ['👫 Invite', '🎁 Bonus', '🗂 Wallet'], ['💵 Withdraw', '📊 Statistics']], resize_keyboard: true } }
+                    '*🏡 Welcome To Main Menu*', { reply_markup: { keyboard: [['💰 Balance'], ['👫 Invite', '🎁 Bonus', '🗂 Wallet'], ['💵 Withdraw', '📊 Statistics']], resize_keyboard: true } }
 
                 )
 
@@ -938,7 +938,7 @@ bot.hears('📊 Statistics', async (ctx) => {
 
                     ctx.reply(
 
-                        '<b>📊 Bot Live Stats 📊\n\n📤 Total Payouts : 0 ' + currency + '\n\n💡 Total Users: ' + members.length + ' Users\n\n✅ Created By : <a href="tg://user?id=5323259352">SAKSHAM</a></b>' , { parse_mode: 'html', reply_markup: { keyboard: [['💰 Balance'], ['👫 Invite', '🎁 Bonus', '🗂 Wallet'], ['💵 Withdraw', '📊 Statistics']], resize_keyboard: true } }
+                        '<b>📊 Bot Live Stats 📊\n\n📤 Total Payouts : 0 ' + currency + '\n\n💡 Total Users: ' + members.length + ' Users\n\n✅ Created By : <a href="tg://user?id=132512">OP</a></b>' , { parse_mode: 'html', reply_markup: { keyboard: [['💰 Balance'], ['👫 Invite', '🎁 Bonus', '🗂 Wallet'], ['💵 Withdraw', '📊 Statistics']], resize_keyboard: true } }
 
                     )
 
@@ -950,7 +950,7 @@ bot.hears('📊 Statistics', async (ctx) => {
 
                     ctx.reply(
 
-                        '<b>📊 Bot Live Stats 📊\n\n📤 Total Payouts : ' + payout + ' ' + currency + '\n\n💡 Total Users: ' + memb + ' Users\n\n✅ Created By : <a href="tg://user?id=5323259352">SAKSHAM</a></b>', { parse_mode: 'html', reply_markup: { keyboard: [['💰 Balance'], ['👫 Invite', '🎁 Bonus', '🗂 Wallet'], ['💵 Withdraw', '📊 Statistics']], resize_keyboard: true } }
+                        '<b>📊 Bot Live Stats 📊\n\n📤 Total Payouts : ' + payout + ' ' + currency + '\n\n💡 Total Users: ' + memb + ' Users\n\n✅ Created By : <a href="tg://user?id=132792">OP</a></b>', { parse_mode: 'html', reply_markup: { keyboard: [['💰 Balance'], ['👫 Invite', '🎁 Bonus', '🗂 Wallet'], ['💵 Withdraw', '📊 Statistics']], resize_keyboard: true } }
 
                     )
 
